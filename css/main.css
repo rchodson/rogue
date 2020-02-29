@@ -1,0 +1,163 @@
+/*** BASE STYLES ***/
+
+body {
+    background: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font: #000000;
+}
+
+.rogue, .fresh {
+    color: #77a466;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/*** GRID ***/
+
+.full-width {
+    width: 1200px;
+    margin: 20px;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    height: 250px;
+    width: 400px;
+    padding: 30px;
+    border-style: solid none;
+    border-color: #dedbdc;
+    border-width: 1px;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+/*** HEADER ***/
+
+header {
+    height: 100px;
+}
+
+header h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+nav    {
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #77a466;
+    padding-left: 20px;
+}
+
+
+/*** TOP SECTION ***/
+
+.hero {
+    border-style: solid none;
+    color: #77a466;
+    border-width: 3px;
+}
+
+#about h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #77a466;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+#about a {
+  color: #77a466;
+}
+
+
+/*** BOTTOM SECTION ***/
+
+h3 {
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+#one a {
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #77a466;
+}
+
+#middle {
+    border-style: solid;
+    border-color: #dedbdc;
+    border-width: 1px;
+}
+
+#two p {
+    font-size: 16px;
+    line-height: 21px;
+
+}
+
+#three p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/*** FOOTER ***/
+
+footer .full-width {
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    clear: both;
+}
+
+footer h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.fresh {
+    font-family: 'Dancing Script', cursive;
+    text-transform: none;
+    font-weight: bolder;
+}
+
+/*** SUPPLEMENTAL 404 ***/
+
+.page-not-found {
+  background-image: url('../img/tomatoes.jpg');
+  width: 1200px;
+  height: 288px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.page-not-found h1 {
+  font-size: 150px;
+  line-height: 288px;
+}
